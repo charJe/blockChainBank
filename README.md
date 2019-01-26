@@ -1,8 +1,8 @@
-# blochChainBank
+# blockChainBank
 Clients use bank website to normally make a transaction.
-Transaction are encrypted using yhe client's personal key.
+Transaction are encrypted using the client's personal key.
 The bank sends encrypted transaction to all miners.
-Miners will store transaction directly on their blckchain. block size is still > 1 transaction.
+Miners will store transaction directly on their block chain. block size is still > 1 transaction.
 
 On a web application, clients can view the entire encrypted blockchain.
 Upon visiting the web application, the bank server fetches blockchains from all miners, and decides what the true block chain is. 
