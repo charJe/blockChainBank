@@ -7,10 +7,11 @@ import java.util.*;
 import java.io.File;
 
 public class Miner{
+    private static final TRANLENGTH=20;
     private static Socket me;
-    static String menu="";
-    Socket me;
-
+    private static String menu="";
+    private static PrintWriter fout;
+    
     public static void main(String[] args){
 	try{
 	    me =new Socket(InetAddress.getLocalHost(), 80);
@@ -22,15 +23,9 @@ public class Miner{
 		while(true) receiveTran();
 	    }
         };
-	Thread receive = new Thread(r);
-    }
+ 	Thread receive = new Thread(r);
 
-    /**
-     * Receives one transaction from the bank server
-     *
-     */
-    public static void receiveTran(){
-
+	
         printMenu();
         switch(menu){
             case "update":
@@ -42,8 +37,10 @@ public class Miner{
                 return;
             case "install":
                 File blockChain = new File("blockChain.bcf");
+		
                 try {
                     blockChain.createNewFile();
+		    myBlockChain=new PrintWriter(blockBhain);
                 }
                 catch(Exception ex){
                     System.out.println(ex.getMessage() + "\n" + ex.getCause());
@@ -60,11 +57,29 @@ public class Miner{
         }
     }
 
+    /**
+     * Receives one transaction from the bank server
+     * @author Charles Jackson
+     */
+    private static void receiveTran(){
+	InputStream nin=me.getIntputStream(); // to read messages sent from the server
+	byte[] cmd=new byte[1];		      // store the command from the server
+	if(nin.available() > 0)	              // if there is a command from the server
+	    nin.read(cmd);		      // read the command character
+	if((char)cmd[0]=='t'){		      // t for receive Transaction. this receives one block
+	    byte[] tranBytes =new byte[];     // to store the new transaction
+	    nin.read(tranBytes);	      // read the new transaction
+	    String tran=new String(tranBytes);// convert bytes to a writable string
+	    fout.append(tran+"\r\n");	      // write the transaction to my block chain
+	}else if((char)cmd[0]=='b')           // b for send Block 
+	    sendBlock();	
+    }
+
      /**
      *
      *
      */      
-    public static void sendBlock(){
+    private static void sendBlock(){ 
 
     }
 
@@ -72,7 +87,7 @@ public class Miner{
      * Function prints the menufor Miner User Interface
      * @author Mohit Bhole
      */
-    public static void printMenu(){
+    private static void printMenu(){
         while(!(menu.equals("update") || menu.equals("delete") || menu.equals("stop") || menu.equals("install")))
         System.out.println("Menu: ");
         System.out.println("Enter update to enter automatic update mode");
