@@ -1,12 +1,31 @@
 import java.net.*;
+/**
+ * to run on the miners' computers. Remotely stores a log of all transactions
+ */
 import java.util.*;
 import java.io.File;
 
 public class Miner{
+    private static Socket me;
     static String menu="";
     Socket me;
 
     public static void main(String[] args){
+        me =new Socket(InetAddress.getLocalHost(), 80);
+	Runnable r = new Runnable(){
+	    public void run(){
+		while(true) receiveTran();
+	    }
+        };
+	Thread receive = new Thread(r);
+    }
+
+    /**
+     * Receives one transaction from the bank server
+     *
+     */
+    public static void receiveTran(){
+
         printMenu();
         switch(menu){
             case "update":
@@ -36,7 +55,8 @@ public class Miner{
         }
     }
 
-    /*
+     /**
+     *
      *
      */      
     public static void sendBlock(){
@@ -59,5 +79,14 @@ public class Miner{
         if(!(menu.equals("update") || menu.equals("delete") || menu.equals("stop") || menu.equals("install"))){
             System.out.println("Invalid input.");
         }
+
     }
+     /**
+     *
+     *
+     */
+    public static void updateBlockChain(){
+
+    }
+
 }
