@@ -99,7 +99,7 @@ public class Main extends Application {
      * @returns String[][] containing block chains from all miners. string[miner number][transaction number]
      * @author Charles Jackson
      */
-    private static String[] getBlockChain() throws Exception{										//CHANGED BY MOHIT
+    private static String getBlockChain() throws Exception{										//CHANGED BY MOHIT
         String[][] blockChains = new String[miners.size()][numberOfTrans];
 	int i=0;
 	for(Socket miner: miners){                        // for every miner

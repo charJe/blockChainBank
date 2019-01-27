@@ -105,7 +105,7 @@ public class FlashDriveController {
         keyfile.createNewFile();
         PrintWriter fout = new PrintWriter(keyfile);
         String acid = acidfield.getText();
-        Scanner in = new Scanner("keys.txt");
+        Scanner in = new Scanner("keys.key");
 
         while(in.hasNextLine()){
             String line = in.nextLine();
