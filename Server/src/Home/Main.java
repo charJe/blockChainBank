@@ -35,7 +35,12 @@ public class Main extends Application {
     /**MAIN
      */
     public static void main(String[] args){
-	/*numberOfTrans=0;
+
+	numberOfTrans=0;
+=======
+	numberOfTrans=0;
+	me=new ServerSocket(80);
+>>>>>>> 65e60952f080b4c7548a1d163d21ba1fc30572cb
 	Runnable r = new Runnable(){
 	    @Override
 	    public void run(){
