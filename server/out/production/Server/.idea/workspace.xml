@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Edited to make it work">
-      <change afterPath="$PROJECT_DIR$/../updateUSB/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/Authentic.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/FlashDriveController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/UpdateUSB.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/bluegithub.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/icons8-delete-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/icons8-paper-money-filled-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/icons8-questionnaire-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/icons8-usb-connector-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/UpdateUSB/keys.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../updateUSB/updateUSB.iml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="UI COMPLETE">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/FlashDriveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/FlashDriveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/USBDeviceDetectorManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/USBStorageDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/detectors/AbstractStorageDeviceDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/detectors/DiskInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/detectors/LinuxStorageDeviceDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/detectors/OSXStorageDeviceDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/detectors/WindowsStorageDeviceDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/events/DeviceEventType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/events/IUSBDriveListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/events/USBStorageEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/process/CommandExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/usbdrivedetector-master.zip" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,47 +112,17 @@
         </counts>
       </usages-collector>
     </session>
-    <session id="-2127957815">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="txt" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fxml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="32" column="28" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="-102">
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/Encryption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="122">
               <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -178,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="78" column="9" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="78" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="117" column="70" lean-forward="true" selection-start-line="117" selection-start-column="70" selection-end-line="117" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Home/FlashDriveController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+            <state relative-caret-position="436">
+              <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,18 +173,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/Home.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/FlashDrive.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -271,10 +238,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1613" />
-    <option name="height" value="877" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -285,45 +251,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,18 +276,13 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548585960744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548583600566" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Oracle/JavaFX Scene Builder 2.0/JavaFX Scene Builder 2.0.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Moit\Documents\GitHub\blockChainBank\server" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -468,8 +403,6 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1548543762239" duration="2783000" />
       <workItem from="1548555600948" duration="24065000" />
-      <workItem from="1548585142989" duration="851000" />
-      <workItem from="1548586015016" duration="2264000" />
     </task>
     <task id="LOCAL-00001" summary="UI">
       <created>1548550369706</created>
@@ -506,24 +439,16 @@
       <option name="project" value="LOCAL" />
       <updated>1548580167457</updated>
     </task>
-    <task id="LOCAL-00006" summary="Edited to make it work">
-      <created>1548585169069</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1548585169069</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31265000" />
+    <option name="totallyTimeSpent" value="28150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17516778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17114094" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -572,8 +497,7 @@
     <MESSAGE value="More UI" />
     <MESSAGE value="UI COMPLETE" />
     <MESSAGE value="USB Save Keys Function and Encryption" />
-    <MESSAGE value="Edited to make it work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited to make it work" />
+    <option name="LAST_COMMIT_MESSAGE" value="USB Save Keys Function and Encryption" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -598,11 +522,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/blue github.png" />
-    <entry file="file://$PROJECT_DIR$/images/bluegithub.png" />
-    <entry file="file://$PROJECT_DIR$/src/Home/USBStorageDevice.java" />
-    <entry file="file://$PROJECT_DIR$/src/Home/USBDeviceDetectorManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/Home/detectors/LinuxStorageDeviceDetector.java" />
+    <entry file="file://$PROJECT_DIR$/images/blue github.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bluegithub.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/USBStorageDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/USBDeviceDetectorManager.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/detectors/LinuxStorageDeviceDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1343">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="788">
@@ -617,27 +559,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Server/src/UpdateUSB.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/Home/FlashDriveController.java">
+    <entry file="file://$PROJECT_DIR$/src/Home/Home.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/keys.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/FlashDrive.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/Encryption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="122">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -645,28 +580,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Home.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Home/FlashDrive.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/Home/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="78" column="9" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="78" selection-end-column="9" />
+        <state relative-caret-position="-102">
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Home/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="117" column="70" lean-forward="true" selection-start-line="117" selection-start-column="70" selection-end-line="117" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/FlashDriveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
