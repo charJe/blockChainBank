@@ -16,8 +16,8 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-
-public class Controller implements Initializable {
+import static java.lang.System.*;
+public class Controller{
 
     @FXML
     private Button usbbtn;
@@ -56,6 +56,8 @@ public class Controller implements Initializable {
     @FXML
     private void loadFlashDrive(ActionEvent event) throws Exception{
         try {
+            clearForm(new ActionEvent());
+
             FXMLLoader loader = new FXMLLoader(getClass().getResource("FlashDrive.fxml"));
             Stage stage = (Stage) usbbtn.getScene().getWindow();
             Scene scene = new Scene(loader.load());
@@ -66,40 +68,24 @@ public class Controller implements Initializable {
 
     }
 
+    @FXML
+    private void exitForm(ActionEvent event) throws Exception{
+        Stage stage = (Stage) transbtn.getScene().getWindow();
+        stage.close();
+    }
 
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
+    @FXML
+    private void clearForm(ActionEvent event) throws Exception{
+        amount.clear();
+        payeeid.clear();
+        payerid.clear();
+        datepick.setValue(null);
+    }
 
-    }
-    public static void main(String[] args){
-	out.println("Main worked");
-    }
-     /**
-     * Sends one transaction to every miner
-     * @param tran the encrypted transaction to be sent to the miners
-     */
-    private static void addToBlockChain(String tran){
-	
-    }
-    /**
-     *
-     *
-     */
-    private static String[][] getBlocks(){
+    @FXML
+    private void submitTransaction(ActionEvent event) throws Exception{
 
     }
-    /**
-     *
-     *
-     */
-    private static sendBlockChainToWeb(){
 
-    }
-    /**
-     *
-     *
-     */
-    private static receiveCmds(){
 
-    }    
 }
