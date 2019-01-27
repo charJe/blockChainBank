@@ -71,4 +71,35 @@ public class Controller implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
     }
+    public static void main(String[] args){
+	out.println("Main worked");
+    }
+     /**
+     * Sends one transaction to every miner
+     * @param tran the encrypted transaction to be sent to the miners
+     */
+    private static void addToBlockChain(String tran){
+	
+    }
+    /**
+     *
+     *
+     */
+    private static String[][] getBlocks(){
+
+    }
+    /**
+     *
+     *
+     */
+    private static sendBlockChainToWeb(){
+
+    }
+    /**
+     *
+     *
+     */
+    private static receiveCmds(){
+
+    }    
 }
