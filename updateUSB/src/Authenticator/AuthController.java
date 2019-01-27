@@ -1,4 +1,3 @@
-package Authenticator;
 
 import javafx.fxml.FXML;
 import java.util.*;
@@ -40,9 +39,11 @@ public class AuthController {
 
     private Stage stage;
 
+
     @FXML
     void exitForm(ActionEvent event) {
-
+        Stage stage = (Stage) exitbtn.getScene().getWindow();
+        stage.close();
     }
 
     @FXML
@@ -69,13 +70,15 @@ public class AuthController {
         Scanner consolein = new Scanner(System.in);
         String path = consolein.nextLine();
 
-        path = path + ":\\BankBlockChain\\";
+        path = path + ":\\BankBlockChain\\personalprivatekey.key";
         File privKey = new File(path);
 
         privKey.setReadable(true);
         Scanner input = new Scanner(privKey);
         String line = input.nextLine();
-
+        String acid = line.substring(0,11);
+        String privateKey = line.substring(12);
+        System.out.println(privateKey);
         //line.substring(0,11) is the account id, and line.substring(12) is the private key.
 
     }
