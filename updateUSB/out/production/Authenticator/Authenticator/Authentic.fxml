@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="flashDrivePane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Authenticator.AuthController">
+   <children>
+      <ImageView fitHeight="251.0" fitWidth="237.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="20.0">
+         <image>
+            <Image url="@bluegithub.png" />
+         </image>
+         <VBox.margin>
+            <Insets left="30.0" top="5.0" />
+         </VBox.margin>
+      </ImageView>
+      <Button fx:id="exitbtn" mnemonicParsing="false" onAction="#exitForm" prefHeight="53.0" prefWidth="285.0" style="-fx-background-color: FFFFFF;" text="     Exit" AnchorPane.bottomAnchor="5.0">
+         <graphic>
+            <ImageView fx:id="usbimage" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8-delete-26.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="authbtn" layoutY="258.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="285.0" style="-fx-background-color: #EFFAFF;" text="     USB AUTH" />
+      <Text fill="#117aca" layoutX="361.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOOK AT TRANSACTIONS" wrappingWidth="406.0" AnchorPane.leftAnchor="360.0">
+         <font>
+            <Font name="Segoe UI" size="27.0" />
+         </font>
+      </Text>
+      <Text fx:id="acid" layoutX="389.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plug in your flash drive, and click Submit" AnchorPane.leftAnchor="389.0" />
+      <Button fx:id="submitbtn" layoutX="389.0" layoutY="282.0" mnemonicParsing="false" onAction="#authenticate" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: E4F4FF;" text="Submit" AnchorPane.rightAnchor="780.0" />
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="89.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-usb-connector-26.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

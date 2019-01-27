@@ -115,7 +115,8 @@ public class Controller{
         fout.println(payerid.getText()+pubKey);
         fout.close();
 
-        System.out.println(new String(signed));  // <<signed message>>
+        //System.out.println(new String(signed));  // <<signed message>>
+        Main.addToBlockChain(new String(signed));
     }
 
 }

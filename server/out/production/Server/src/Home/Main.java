@@ -80,7 +80,7 @@ public class Main extends Application {
      * @param tran the encrypted transaction to be sent to the miners
      * @author Charles Jackson
      */
-    private static void addToBlockChain(String tran)throws Exception{
+    public static void addToBlockChain(String tran)throws Exception{
 	++numberOfTrans;
 	for(Socket miner: miners){
 	    try{

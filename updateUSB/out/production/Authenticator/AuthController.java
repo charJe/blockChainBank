@@ -1,4 +1,4 @@
-package UpdateUSB;
+package Authenticator;
 
 import javafx.fxml.FXML;
 import java.util.*;

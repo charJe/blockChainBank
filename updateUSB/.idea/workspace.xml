@@ -3,16 +3,49 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Home/FlashDriveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Home/FlashDriveController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Home/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/out/production/Server/FlashDriveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/Server/FlashDriveController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/out/production/Server/Home/FlashDriveController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/out/production/Server/Home/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/out/production/Server/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/Server/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/out/production/Server/Home/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/Server/Home/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/out/production/Server/Home/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/Server/Home/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/out/production/Server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/Server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/out/production/Server/src/Home/FlashDriveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/Server/src/Home/FlashDriveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/out/production/Server/keys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/Server/keys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/out/production/Server/src/Home/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/Server/src/Home/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/out/production/Server/src/Home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/out/production/Server/src/Home/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updateUSB/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/Authentic.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/FlashDriveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/Authentic.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/FlashDriveController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/UpdateUSB.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/bluegithub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/icons8-delete-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/icons8-paper-money-filled-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/icons8-questionnaire-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/icons8-usb-connector-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/keys.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/bluegithub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/icons8-delete-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/icons8-paper-money-filled-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/icons8-questionnaire-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/icons8-usb-connector-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updateUSB/keys.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticator/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/Authentic.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticator/Authentic.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/FlashDriveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/UpdateUSB.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/bluegithub.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticator/bluegithub.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/icons8-delete-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticator/icons8-delete-26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/icons8-paper-money-filled-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticator/icons8-paper-money-filled-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/icons8-questionnaire-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticator/icons8-questionnaire-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/icons8-usb-connector-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticator/icons8-usb-connector-26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateUSB/keys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Authenticator/keys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateUSB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Authenticator.iml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,31 +103,32 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="8" />
+          <entry key="fxml" value="11" />
           <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="2" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="85" />
-          <entry key="java" value="427" />
+          <entry key="java" value="440" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="427" />
+          <entry key="JAVA" value="440" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="85" />
         </counts>
@@ -106,40 +140,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UpdateUSB/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UpdateUSB/FlashDriveController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/UpdateUSB/AuthController.java">
+        <entry file="file://$PROJECT_DIR$/src/Authenticator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+            <state relative-caret-position="162">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Authenticator/AuthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Authenticator/Authentic.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="252" selection-start-line="9" selection-start-column="252" selection-end-line="9" selection-end-column="252" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -171,6 +203,11 @@
         <option value="$PROJECT_DIR$/src/UpdateUSB/Main.java" />
         <option value="$PROJECT_DIR$/src/UpdateUSB/FlashDriveController.java" />
         <option value="$PROJECT_DIR$/src/UpdateUSB/AuthController.java" />
+        <option value="$PROJECT_DIR$/src/Authenticator/Main.java" />
+        <option value="$PROJECT_DIR$/src/Authenticator/FlashDriveController.java" />
+        <option value="$PROJECT_DIR$/src/Authenticator/AuthController.java" />
+        <option value="$PROJECT_DIR$/out/production/Authenticator/Authenticator/Authentic.fxml" />
+        <option value="$PROJECT_DIR$/src/Authenticator/Authentic.fxml" />
       </list>
     </option>
   </component>
@@ -196,8 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +251,7 @@
               <item name="updateUSB" type="b2602c69:ProjectViewProjectNode" />
               <item name="updateUSB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UpdateUSB" type="462c0819:PsiDirectoryNode" />
+              <item name="Authenticator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +269,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548588507948" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548591052663" />
     <property name="dynamic.classpath" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -276,9 +313,8 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="UpdateUSB.Main" />
-      <module name="updateUSB" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="Authenticator.Main" />
+      <module name="Authenticator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="UpdateUSB.*" />
@@ -297,6 +333,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -305,6 +361,114 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Authenticator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Authenticator" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -317,6 +481,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -325,6 +501,87 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="Authenticator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -339,6 +596,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1548586056319" duration="2242000" />
+      <workItem from="1548590050403" duration="1021000" />
     </task>
     <task id="LOCAL-00001" summary="UpdateUSB UI">
       <created>1548589670377</created>
@@ -351,12 +609,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4353000" />
+    <option name="totallyTimeSpent" value="5374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20939597" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21208054" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,7 +624,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24113475" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24113475" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,6 +650,42 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21208054" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24113475" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -411,22 +706,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/UpdateUSB/Auth.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/UpdateUSB/Authentic.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="285" selection-start-line="9" selection-start-column="285" selection-end-line="9" selection-end-column="285" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UpdateUSB/UpdateUSB.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/updateUSB/UpdateUSB/UpdateUSB.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -435,30 +714,54 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UpdateUSB/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Authenticator/FlashDriveController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UpdateUSB/FlashDriveController.java">
+    <entry file="file://$PROJECT_DIR$/out/production/Authenticator/Authenticator/Authentic.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="850">
+          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Authenticator/UpdateUSB.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Authenticator/Authentic.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="252" selection-start-line="9" selection-start-column="252" selection-end-line="9" selection-end-column="252" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Authenticator/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UpdateUSB/AuthController.java">
+    <entry file="file://$PROJECT_DIR$/src/Authenticator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
+        <state relative-caret-position="162">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -476,7 +779,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -520,7 +822,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>updateUSB</last-edited>
+          <last-edited>Authenticator</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

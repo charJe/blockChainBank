@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/updateUSB.iml" filepath="$PROJECT_DIR$/updateUSB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Authenticator.iml" filepath="$PROJECT_DIR$/Authenticator.iml" />
     </modules>
   </component>
 </project>
