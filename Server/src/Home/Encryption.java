@@ -2,10 +2,22 @@ package Home;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.security.GeneralSecurityException;
+import java.security.InvalidKeyException;
+import java.security.KeyFactory;
 import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
-
+import java.security.Signature;
+import java.security.SignatureException;
+import java.security.interfaces.RSAPrivateKey;
+import java.security.interfaces.RSAPublicKey;
+import java.security.spec.PKCS8EncodedKeySpec;
+import java.security.spec.X509EncodedKeySpec;
 import javax.crypto.Cipher;
 
 public class Encryption {
@@ -32,16 +44,16 @@ public class Encryption {
         return keyPairGenerator.genKeyPair();
     }
 
-    public static byte[] encrypt(PrivateKey privateKey, String message) throws Exception {
+    public static byte[] encrypt(PublicKey publicKey, String message) throws Exception {
         Cipher cipher = Cipher.getInstance("RSA");
-        cipher.init(Cipher.ENCRYPT_MODE, privateKey);
+        cipher.init(Cipher.ENCRYPT_MODE, publicKey);
 
         return cipher.doFinal(message.getBytes());
     }
 
-    public static byte[] decrypt(PublicKey publicKey, byte [] encrypted) throws Exception {
+    public static byte[] decrypt(PrivateKey privateKey, byte [] encrypted) throws Exception {
         Cipher cipher = Cipher.getInstance("RSA");
-        cipher.init(Cipher.DECRYPT_MODE, publicKey);
+        cipher.init(Cipher.DECRYPT_MODE, privateKey);
 
         return cipher.doFinal(encrypted);
     }
