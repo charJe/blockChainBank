@@ -26,14 +26,14 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="authbtn" layoutY="258.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="285.0" style="-fx-background-color: #EFFAFF;" text="     USB AUTH" />
-      <Text fill="#117aca" layoutX="361.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOOK AT TRANSACTIONS" wrappingWidth="406.0" AnchorPane.leftAnchor="360.0">
+      <Button fx:id="authbtn" layoutY="258.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="285.0" style="-fx-background-color: #21c90b;" text="     USB AUTH" />
+      <Text fill="#21c90b" layoutX="361.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOOK AT TRANSACTIONS" wrappingWidth="406.0" AnchorPane.leftAnchor="360.0">
          <font>
             <Font name="Segoe UI" size="27.0" />
          </font>
       </Text>
       <Text fx:id="acid" layoutX="389.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plug in your flash drive, and click Submit" AnchorPane.leftAnchor="389.0" />
-      <Button fx:id="submitbtn" layoutX="389.0" layoutY="282.0" mnemonicParsing="false" onAction="#authenticate" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: E4F4FF;" text="Submit" AnchorPane.rightAnchor="780.0" />
+      <Button fx:id="submitbtn" layoutX="389.0" layoutY="282.0" mnemonicParsing="false" onAction="#authenticate" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: #21c90b;" text="Submit" AnchorPane.rightAnchor="780.0" />
       <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="89.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@icons8-usb-connector-26.png" />

@@ -99,20 +99,22 @@ public class Controller{
     private void submitTransaction(ActionEvent event) throws Exception{
         KeyPair keyPair = Encryption.buildKeyPair();
         // sign the message
-        byte [] signed = Encryption.encrypt(keyPair.getPrivate(), payerid.getText()+payeeid.getText()+datepick.getValue()+amount.getText());          //payer id + payee id + date + amount
+        byte [] signed = Encryption.encrypt(keyPair.getPublic(), payerid.getText()+payeeid.getText()+datepick.getValue()+amount.getText());          //payer id + payee id + date + amount
 
         byte[] pubKey = keyPair.getPublic().getEncoded();
         byte[] privateKey = keyPair.getPrivate().getEncoded();
-        File keyss = new File("keys.key");
+        File keyss = new File("keys.txt");
         keyss.createNewFile();
-        PrintWriter fout = new PrintWriter("keys.key");
+        PrintWriter fout = new PrintWriter("keys.txt");
         fout.println(payerid.getText()+privateKey);                                            //PAYER ID IS USED AS THE ENCRYPTION KEY
+        System.out.println(privateKey);
         fout.close();
 
-        File publickeys = new File("publicKeys.key");
+        File publickeys = new File("publicKeys.txt");
         publickeys.createNewFile();
-        fout = new PrintWriter("publicKeys.keys");
+        fout = new PrintWriter("publicKeys.txt");
         fout.println(payerid.getText()+pubKey);
+        out.println(pubKey);
         fout.close();
 
         //System.out.println(new String(signed));  // <<signed message>>
