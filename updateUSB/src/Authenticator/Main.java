@@ -11,7 +11,7 @@ import java.net.*;
 import static java.lang.System.*;
 
 public class Main extends Application {
-    private static int TRANLENGTH=20;
+    private static int TRANLENGTH=128;
     private static Socket me;
         
     @Override
