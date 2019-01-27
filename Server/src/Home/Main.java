@@ -36,6 +36,7 @@ public class Main extends Application {
      */
     public static void main(String[] args){
 	numberOfTrans=0;
+	me=new ServerSocket(80);
 	Runnable r = new Runnable(){
 	    @Override
 	    public void run(){
