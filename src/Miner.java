@@ -1,12 +1,11 @@
 import java.net.*;
 import java.io.*;
 import static java.lang.System.*;
+import java.util.*;
+import java.io.File;
 /**
  * to run on the miners' computers. Remotely stores a log of all transactions
  */
-import java.util.*;
-import java.io.File;
-
 public class Miner{
     private static final int TRANLENGTH=20;
     private static int sizeOfBlockChain;
@@ -98,17 +97,17 @@ public class Miner{
      * @author Mohit Bhole
      */
     private static void printMenu(){
-	//TODO mohit fix this function
-        while(!(menu.equals("update") || menu.equals("delete") || menu.equals("stop") || menu.equals("install")))
-        System.out.println("Menu: ");
-        System.out.println("Enter update to enter automatic update mode");
-        System.out.println("Enter stop to stop and exit");
-        System.out.println("Enter install to install the block-chain (for new computers)");
-        System.out.println("Enter delete to delete the block-chain from the computer");
-        Scanner input = new Scanner(System.in);
-        menu = input.nextLine();
-        if(!(menu.equals("update") || menu.equals("delete") || menu.equals("stop") || menu.equals("install"))){
-            System.out.println("Invalid input.");
+        while(!(menu.equals("update") || menu.equals("delete") || menu.equals("stop") || menu.equals("install"))) {
+            System.out.println("Menu: ");
+            System.out.println("Enter update to enter automatic update mode");
+            System.out.println("Enter stop to stop and exit");
+            System.out.println("Enter install to install the block-chain (for new computers)");
+            System.out.println("Enter delete to delete the block-chain from the computer");
+            Scanner input = new Scanner(System.in);
+            menu = input.nextLine();
+            if (!(menu.equals("update") || menu.equals("delete") || menu.equals("stop") || menu.equals("install"))) {
+                System.out.println("Invalid input.");
+            }
         }
     }
     /**
