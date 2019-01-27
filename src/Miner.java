@@ -8,7 +8,7 @@ import static java.lang.System.*;
  * to run on the miners' computers. Remotely stores a log of all transactions
  */
 public class Miner{
-    private static final int TRANLENGTH=20;
+    private static final int TRANLENGTH=128;
     private static int sizeOfBlockChain;
     private static Socket me;
     private static String menu="";
@@ -35,7 +35,9 @@ public class Miner{
         switch(menu){
             case "start":
 		try{
-		    me = new Socket(InetAddress.getLocalHost(), 80); // connect to main server
+		    out.println("Trying to connect...");
+		    me = new Socket(InetAddress.getByName("10.204.88.6"), 80); // connect to main server
+		    out.println("Got connection!");
 		}catch(Exception ex){
 		    out.print("Could not connect to Server because: "+ex+": "+ex.getMessage()+"\n> ");
 		}
@@ -44,12 +46,6 @@ public class Miner{
 		out.print("Waiting for transactions\n> ");
 		updated=true;
                 break;
-            case "stop":
-                receive.stop();
-		me.close();
-		updated=false;
-		out.print("stopped\n> ");
-                return;
 	    case "close":
 		receive.stop();
 		me.close();
@@ -92,6 +88,7 @@ public class Miner{
 	    PrintWriter fout = new PrintWriter(new File("blockChain.bcf"));
 	    fout.append(tran+"\r\n");	            // write the transaction to my block chain
 	    out.print("Got a transaction\n> ");
+	    ++sizeOfBlockChain;
 	    fout.close();
 	}else if((char)cmd[0]=='b')                 // b for send Block 
 	    sendBlock();	
@@ -118,7 +115,7 @@ public class Miner{
      * @author Charles Jackson
      */
     private static void printMenu(){
-	out.print("start \t- creates your block chain and updates it with the one other miners have.\nstop\t- stops your block chain from receiveing any more transactions\nclose \t- closes this application\nhelp\t- displays this command guide\n>  ");
+	out.print("start \t- creates your block chain and updates it with the one other miners have.\nclose \t- closes this application\nhelp\t- displays this command guide\n>  ");
     }
     /**
      * Gets the current blockchain from the server (after the server retrieves it from other miners).
@@ -126,12 +123,11 @@ public class Miner{
      * @author Charles Jackson
      */
     public static void updateBlockChain()throws Exception{
-	//TODO set sizeOfBlockChain
 	File blockChain = new File("blockChain.bcf"); // to store my block chain
 	PrintWriter fout;
         try{				     
 	    blockChain.delete();                      // delete the any old files
-	    blockChain.createNewFile();               // create a new block chain file
+	    //blockChain.createNewFile();               // create a new block chain file
 	    fout=new PrintWriter(blockChain);
         }catch(Exception ex){
             System.out.print("Failed to update block chain because: "+ex.getMessage() + "\n" + ex.getCause()+"\n> ");
