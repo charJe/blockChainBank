@@ -114,8 +114,33 @@ public class Main extends Application {
 	    }
 	    ++i;
 	}
-	//TODO go compare blockChains and return the good one
-		return(new String[3]);
+	double[] percentErrors=new double[miners.size()];
+	for(int i=0; i < miners.size(); ++i){ // for every miner
+	    for(int j=0; j  <miners.size(); ++j){ // compare to every other miner
+		if(i==j) continue;		  // don't compare the same thing
+		double incrementError=0.0;
+		for(int k=0; k<numberOfTrans; ++k){
+		    if(!blockChains[i][k].equals(blockChains[j][k]))
+			++incrementError;
+		}
+		percentErrors[i]=incrementError/numberOfTrans;
+	    }
+	    percentErrors[i]/=miners.size();
+	}
+	return blockChains[i][findMin(percentErrors)];
+    }
+    /**
+     * find the smallest value in the array
+     * @param ar the array to be indexed
+     * @returns the index of the smallest value
+     * @author Charles Jackson
+     */
+    private static int findMin(double[] ar){
+	int min=0;
+	for(int i=0; i<ar.length; ++i){
+	    if(ar[i] < ar[min])
+		min=i;
+	}
     }
     /**
      * send the true block chain to the web application
