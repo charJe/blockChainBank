@@ -1,6 +1,8 @@
 package UpdateUSB;
 
 import javafx.fxml.FXML;
+import java.util.*;
+import java.io.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,6 +13,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 public class AuthController {
 
@@ -61,7 +64,19 @@ public class AuthController {
 
 
     @FXML
-    void authenticate(ActionEvent event) {
+    void authenticate(ActionEvent event) throws Exception{
+        System.out.println("Enter the path of the USB Drive(Just the letter): ");
+        Scanner consolein = new Scanner(System.in);
+        String path = consolein.nextLine();
+
+        path = path + ":\\BankBlockChain\\";
+        File privKey = new File(path);
+
+        privKey.setReadable(true);
+        Scanner input = new Scanner(privKey);
+        String line = input.nextLine();
+
+        //line.substring(0,11) is the account id, and line.substring(12) is the private key.
 
     }
 
