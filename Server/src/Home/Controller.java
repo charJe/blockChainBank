@@ -3,15 +3,21 @@ package Home;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
-public class Controller {
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class Controller implements Initializable {
 
     @FXML
     private Button usbbtn;
@@ -46,16 +52,23 @@ public class Controller {
     @FXML
     private Button submitbtn;
 
-    @FXML
-    private void loadFlashDrive(ActionEvent event) throws Exception{
-        AnchorPane pane2 = FXMLLoader.load(getClass().getResource("FlashDriveController.fxml"));
-        pane2.getChildren().setAll(pane2);
-        System.out.println("flash");
-    }
 
     @FXML
-    private void loadHome(ActionEvent event) throws Exception{
-        AnchorPane pane = FXMLLoader.load(getClass().getResource("Home.fxml"));
-        pane.getChildren().setAll(pane);
+    private void loadFlashDrive(ActionEvent event) throws Exception{
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("FlashDrive.fxml"));
+            Stage stage = (Stage) usbbtn.getScene().getWindow();
+            Scene scene = new Scene(loader.load());
+            stage.setScene(scene);
+        }catch (IOException io){
+            io.printStackTrace();
+        }
+
+    }
+
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
     }
 }

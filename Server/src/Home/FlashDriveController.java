@@ -7,7 +7,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 
 public class FlashDriveController {
@@ -41,12 +40,6 @@ public class FlashDriveController {
 
     @FXML
     private TextField acidfield;
-
-    @FXML
-    private void loadFlashDrive(ActionEvent event) throws Exception{
-        AnchorPane pane2 = FXMLLoader.load(getClass().getResource("FlashDriveController.fxml"));
-        pane2.getChildren().setAll(pane2);
-    }
 
     @FXML
     private void loadHome(ActionEvent event) throws Exception{
