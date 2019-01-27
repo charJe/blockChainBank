@@ -35,7 +35,15 @@ public class Main extends Application {
     /**MAIN
      */
     public static void main(String[] args){
-	/*numberOfTrans=0;
+
+	numberOfTrans=0;
+	try {
+		me = new ServerSocket(80);
+	}
+	catch(Exception ex){
+		return;
+	}
+	miners = new ArrayList<>();
 	Runnable r = new Runnable(){
 	    @Override
 	    public void run(){
@@ -63,7 +71,7 @@ public class Main extends Application {
 	Thread receiveStuff = new Thread(r);
 	Thread getConnections = new Thread(c);
 	receiveStuff.start();
-	getConnections.start();*/
+	getConnections.start();
         launch(args);
     }
 
