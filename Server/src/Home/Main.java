@@ -35,7 +35,7 @@ public class Main extends Application {
     /**MAIN
      */
     public static void main(String[] args){
-	numberOfTrans=0;
+	/*numberOfTrans=0;
 	Runnable r = new Runnable(){
 	    @Override
 	    public void run(){
@@ -63,7 +63,7 @@ public class Main extends Application {
 	Thread receiveStuff = new Thread(r);
 	Thread getConnections = new Thread(c);
 	receiveStuff.start();
-	getConnections.start();
+	getConnections.start();*/
         launch(args);
     }
 
@@ -91,7 +91,7 @@ public class Main extends Application {
      * @returns String[][] containing block chains from all miners. string[miner number][transaction number]
      * @author Charles Jackson
      */
-    private static String[] getBlockChain(){
+    private static String[] getBlockChain() throws Exception{										//CHANGED BY MOHIT
         String[][] blockChains = new String[miners.size()][numberOfTrans];
 	int i=0;
 	for(Socket miner: miners){                        // for every miner
@@ -106,7 +106,8 @@ public class Main extends Application {
 	    }
 	    ++i;
 	}
-	//TODO go compare blockChains and return the good one 
+	//TODO go compare blockChains and return the good one
+		return(new String[3]);
     }
     /**
      * send the true block chain to the web application

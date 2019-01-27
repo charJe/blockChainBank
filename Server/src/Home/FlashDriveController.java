@@ -12,8 +12,9 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import javax.swing.*;
-import java.io.*;
-import java.util.List;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class FlashDriveController {
@@ -49,7 +50,7 @@ public class FlashDriveController {
     private TextField acidfield;
 
     @FXML
-    private void loadHome(ActionEvent event)throws Exception{
+    private void loadHome(ActionEvent event) throws Exception {
         try {
             clearForm(new ActionEvent());
 
@@ -57,34 +58,35 @@ public class FlashDriveController {
             Stage stage = (Stage) transbtn.getScene().getWindow();
             double heightx = stage.getHeight();
             double widthx = stage.getWidth();
-            Scene scene = new Scene(loader.load(),widthx,heightx);
+            Scene scene = new Scene(loader.load(), widthx, heightx);
             stage.setMinHeight(heightx);
             stage.setMinWidth(widthx);
             stage.setScene(scene);
-        }catch (IOException io){
+        } catch (IOException io) {
             io.printStackTrace();
         }
     }
 
     @FXML
-    private void exitForm(ActionEvent event) throws Exception{
+    private void exitForm(ActionEvent event) throws Exception {
         Stage stage = (Stage) transbtn.getScene().getWindow();
         stage.close();
     }
 
     @FXML
-    private void clearForm(ActionEvent event) throws Exception{
+    private void clearForm(ActionEvent event) throws Exception {
         passfield.clear();
         acidfield.clear();
     }
 
     @FXML
-    private void writeToFlashDrive(ActionEvent event) throws Exception{
+    private void writeToFlashDrive(ActionEvent event) throws Exception {
 
     }
 
+
     /**
-     *  
+     *
      * @param event
      * @throws Exception
      * Author Mohit Bhole
@@ -92,25 +94,30 @@ public class FlashDriveController {
     @FXML
     private void usbSaveKeys(ActionEvent event) throws Exception{
 
-            USBDeviceDetectorManager manager = new USBDeviceDetectorManager();
-            List<USBStorageDevice> usbStorageDevices = manager.getRemovableDevices();
+        System.out.println("Enter the path of the USB Drive(Just the letter): ");
+        Scanner consolein = new Scanner(System.in);
+        String path = consolein.nextLine();
 
-            for(USBStorageDevice usbStorageDevice : usbStorageDevices)
-            {
-                System.out.println(usbStorageDevice.getSystemDisplayName());
-                System.out.println(usbStorageDevice.getDeviceName());
-                System.out.println(usbStorageDevice.getRootDirectory());
-            }
-            System.out.println("Enter the path of the USB Drive(Just the letter): ");
-            Scanner consolein = new Scanner(System.in);
-            String path = consolein.nextLine();
+        path = path + ":\\BankBlockChain\\";
 
-            path = path + ":\\BankBlockChain\\";
+        File keyfile = new File(path);
+        keyfile.createNewFile();
+        PrintWriter fout = new PrintWriter(keyfile);
+        String acid = acidfield.getText();
+        Scanner in = new Scanner("keys.txt");
 
-            File keyfile = new File(path);
-
-
+        while(in.hasNextLine()){
+            String line = in.nextLine();
+            if(line.substring(0,11).equals(acid))   {
+                fout.write(line.substring(12));
+                break;
             }
         }
+        keyfile.setReadable(false);
+        keyfile.setExecutable(false);
+        keyfile.setWritable(false);
+
+        in.close();
+        fout.close();
     }
 }

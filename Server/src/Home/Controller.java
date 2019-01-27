@@ -13,6 +13,14 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import java.io.File;
+import java.io.PrintWriter;
+import java.security.KeyPair;
+import java.security.KeyPairGenerator;
+import java.security.NoSuchAlgorithmException;
+import java.security.PrivateKey;
+import java.security.PublicKey;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -88,7 +96,26 @@ public class Controller{
 
     @FXML
     private void submitTransaction(ActionEvent event) throws Exception{
+        KeyPair keyPair = Encryption.buildKeyPair();
+        PublicKey pubKey = keyPair.getPublic();
+        PrivateKey privateKey = keyPair.getPrivate();
 
+        // sign the message
+        byte [] signed = Encryption.encrypt(privateKey, payerid.getText()+payeeid.getText()+datepick.getValue()+amount.getText());          //payer id + payee id + date + amount
+
+        File keyss = new File("keys.txt");
+        keyss.createNewFile();
+        PrintWriter fout = new PrintWriter("keys.txt");
+        fout.println(payerid.getText()+privateKey);                                            //PAYER ID IS USED AS THE ENCRYPTION KEY
+        fout.close();
+
+        File publickeys = new File("publicKeys.txt");
+        publickeys.createNewFile();
+        fout = new PrintWriter("publicKeys.txt");
+        fout.println(payerid.getText()+pubKey);
+        fout.close();
+
+        System.out.println(new String(signed));  // <<signed message>>
     }
 
 }
