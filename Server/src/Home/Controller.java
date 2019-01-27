@@ -60,7 +60,11 @@ public class Controller{
 
             FXMLLoader loader = new FXMLLoader(getClass().getResource("FlashDrive.fxml"));
             Stage stage = (Stage) usbbtn.getScene().getWindow();
-            Scene scene = new Scene(loader.load());
+            double heightx = stage.getHeight();
+            double widthx = stage.getWidth();
+            Scene scene = new Scene(loader.load(),widthx,heightx);
+            stage.setMinHeight(heightx);
+            stage.setMinWidth(widthx);
             stage.setScene(scene);
         }catch (IOException io){
             io.printStackTrace();
