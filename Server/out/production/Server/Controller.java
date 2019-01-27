@@ -103,18 +103,16 @@ public class Controller{
 
         byte[] pubKey = keyPair.getPublic().getEncoded();
         byte[] privateKey = keyPair.getPrivate().getEncoded();
-        File keyss = new File("keys.txt");
+        File keyss = new File("keys.key");
         keyss.createNewFile();
-        PrintWriter fout = new PrintWriter("keys.txt");
+        PrintWriter fout = new PrintWriter("keys.key");
         fout.println(payerid.getText()+privateKey);                                            //PAYER ID IS USED AS THE ENCRYPTION KEY
-        System.out.println(privateKey);
         fout.close();
 
-        File publickeys = new File("publicKeys.txt");
+        File publickeys = new File("publicKeys.key");
         publickeys.createNewFile();
-        fout = new PrintWriter("publicKeys.txt");
+        fout = new PrintWriter("publicKeys.key");
         fout.println(payerid.getText()+pubKey);
-        out.println(pubKey);
         fout.close();
 
         //System.out.println(new String(signed));  // <<signed message>>

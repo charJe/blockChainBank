@@ -76,9 +76,14 @@ public class AuthController {
         privKey.setReadable(true);
         Scanner input = new Scanner(privKey);
         String line = input.nextLine();
-        String acid = line.substring(0,11);
-        String privateKey = line.substring(12);
-        System.out.println(privateKey);
+        Scanner search = new Scanner(keys.key);
+        boolean authenticated=false;
+        while(search.hasNext())
+        {
+            if(search.equals(line))
+                authenticated=true;
+        }
+        if(authenticated)
         //line.substring(0,11) is the account id, and line.substring(12) is the private key.
 
     }
