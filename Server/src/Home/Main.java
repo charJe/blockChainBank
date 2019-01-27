@@ -13,7 +13,7 @@ import static java.lang.System.out;
 
 public class Main extends Application {
     private static int numberOfTrans;
-    private static final int TRANLENGTH=20;
+    private static final int TRANLENGTH=128;
     private static final int BLOCKSIZE=5;
     private static final double THRESHOLD=.90;
     private static ServerSocket me;
