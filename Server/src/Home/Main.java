@@ -128,6 +128,11 @@ public class Main extends Application {
 		    percentErrors[i]/=BLOCKSIZE; // average the %error
 		}		
 	    int t=findMin(percentErrors);
+	    double totatlError=0.0;
+	    for(i=0; i<percentErrors.length; ++i)
+		totatlError+=percentErrors[i];
+	    totalError/=(double)percentErrors.length;
+	    if(totalError>THRESHOLD) throw new CorruptedBlockException("error > "+THRESHOLD);
 	    for(int tbIndex=tcIndex; tbIndex<BLOCKSIZE; ++tbIndex)
 		trueChain[tbIndex]=blockChains[t][tbIndex];
         }
@@ -155,6 +160,8 @@ public class Main extends Application {
 	if(web==null)throw new SocketException("SocketNotConnected");
 	OutputStream wout = web.getOutputStream();
 	String[] blockChain=getBlockChain();
+	int size=blockChain.length*TRANLENGTH;
+	wout.write((""+size).getBytes());
 	for(String tran: blockChain)
 	    wout.write(tran.getBytes());
     }
