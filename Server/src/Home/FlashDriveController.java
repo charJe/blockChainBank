@@ -12,7 +12,9 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import javax.swing.*;
-import java.io.IOException;
+import java.io.*;
+import java.util.List;
+import java.util.Scanner;
 
 public class FlashDriveController {
 
@@ -79,5 +81,36 @@ public class FlashDriveController {
     @FXML
     private void writeToFlashDrive(ActionEvent event) throws Exception{
 
+    }
+
+    /**
+     *  
+     * @param event
+     * @throws Exception
+     * Author Mohit Bhole
+     */
+    @FXML
+    private void usbSaveKeys(ActionEvent event) throws Exception{
+
+            USBDeviceDetectorManager manager = new USBDeviceDetectorManager();
+            List<USBStorageDevice> usbStorageDevices = manager.getRemovableDevices();
+
+            for(USBStorageDevice usbStorageDevice : usbStorageDevices)
+            {
+                System.out.println(usbStorageDevice.getSystemDisplayName());
+                System.out.println(usbStorageDevice.getDeviceName());
+                System.out.println(usbStorageDevice.getRootDirectory());
+            }
+            System.out.println("Enter the path of the USB Drive(Just the letter): ");
+            Scanner consolein = new Scanner(System.in);
+            String path = consolein.nextLine();
+
+            path = path + ":\\BankBlockChain\\";
+
+            File keyfile = new File(path);
+
+
+            }
+        }
     }
 }

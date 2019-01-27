@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 import static java.lang.System.out;
 
 public class Main extends Application {
-    private static numberOfTrans;
+    private static int numberOfTrans;
     private static final int TRANLENGTH=20;
     
     @Override
