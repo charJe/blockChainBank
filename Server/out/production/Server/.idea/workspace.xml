@@ -1,29 +1,849 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="everything">
-      <change afterPath="$PROJECT_DIR$/../updateUSB/src/Authenticator/Dashboard.fxml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="stuff">
+      <change afterPath="$PROJECT_DIR$/../updateUSB/src/Authenticator/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/detect-libc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/detect-libc.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/mkdirp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/mkdirp.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/needle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/needle.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/node-pre-gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/node-pre-gyp.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/nopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/nopt.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/rc.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/rimraf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/rimraf.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/abbrev/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/abbrev/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/abbrev/abbrev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/abbrev/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ansi-regex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ansi-regex/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ansi-regex/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/aproba/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/aproba/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/aproba/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/aproba/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/are-we-there-yet/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/are-we-there-yet/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/are-we-there-yet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/are-we-there-yet/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/are-we-there-yet/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/are-we-there-yet/tracker-base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/are-we-there-yet/tracker-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/are-we-there-yet/tracker-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/are-we-there-yet/tracker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/balanced-match/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/balanced-match/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/balanced-match/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/balanced-match/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/balanced-match/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/brace-expansion/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/brace-expansion/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/brace-expansion/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/brace-expansion/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/chownr/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/chownr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/chownr/chownr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/chownr/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/code-point-at/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/code-point-at/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/code-point-at/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/code-point-at/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/concat-map/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/concat-map/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/concat-map/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/concat-map/example/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/concat-map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/concat-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/concat-map/test/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/console-control-strings/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/console-control-strings/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/console-control-strings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/console-control-strings/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/core-util-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/core-util-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/core-util-is/float.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/core-util-is/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/core-util-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/core-util-is/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/deep-extend/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/deep-extend/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/deep-extend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/deep-extend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/deep-extend/lib/deep-extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/deep-extend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/delegates/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/delegates/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/delegates/License" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/delegates/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/delegates/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/delegates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/delegates/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/delegates/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/detect-libc/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/detect-libc/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/detect-libc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/detect-libc/bin/detect-libc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/detect-libc/lib/detect-libc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/detect-libc/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/fs-minipass/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/fs-minipass/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/fs-minipass/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/fs-minipass/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/fs.realpath/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/fs.realpath/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/fs.realpath/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/fs.realpath/old.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/fs.realpath/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/base-theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/has-color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/plumbing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/progress-bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/render-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/set-immediate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/set-interval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/spin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/template-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/theme-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/themes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/gauge/wide-truncate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/glob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/glob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/glob/changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/glob/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/glob/glob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/glob/sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/has-unicode/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/has-unicode/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/has-unicode/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/has-unicode/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ignore-walk/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ignore-walk/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ignore-walk/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ignore-walk/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/inflight/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/inflight/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/inflight/inflight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/inflight/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ini/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ini/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ini/ini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/ini/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/is-fullwidth-code-point/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/is-fullwidth-code-point/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/is-fullwidth-code-point/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimatch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimatch/minimatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/example/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/readme.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/test/dash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/test/default_bool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/test/dotted.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/test/long.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/test/parse_modified.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/test/short.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minimist/test/whitespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minipass/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minipass/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minipass/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minipass/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minizlib/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minizlib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minizlib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minizlib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/minizlib/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/bin/cmd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/bin/usage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/examples/pow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/readme.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/chmod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/clobber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/mkdirp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/opts_fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/opts_fs_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/perm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/perm_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/race.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/rel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/return.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/return_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/umask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/mkdirp/test/umask_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/asyncworker.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/buffers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/callback.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/converters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/errors.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/json.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/maybe_types.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/methods.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/new.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/node_misc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/object_wrappers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/persistent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/scopes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/script.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/string_bytes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/v8_internals.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/doc/v8_misc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/include_dirs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_callbacks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_callbacks_12_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_callbacks_pre_12_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_converters.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_converters_43_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_converters_pre_43_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_define_own_property_helper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_implementation_12_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_implementation_pre_12_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_json.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_maybe_43_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_maybe_pre_43_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_new.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_object_wrap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_persistent_12_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_persistent_pre_12_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_private.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_string_bytes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_typedarray_contents.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/nan_weak.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/tools/1to2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/tools/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nan/tools/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/bin/needle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/examples/deflated-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/examples/digest-auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/examples/download-to-file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/examples/multipart-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/examples/parsed-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/examples/parsed-stream2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/examples/stream-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/examples/stream-to-file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/examples/upload-image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/lib/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/lib/cookies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/lib/decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/lib/multipart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/lib/needle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/lib/parsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/lib/querystring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/note.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/note.xml.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/basic_auth_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/compression_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/cookies_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/decoder_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/errors_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/headers_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/long_string_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/output_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/parsing_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/post_data_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/proxy_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/querystring_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/redirect_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/redirect_with_timeout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/request_stream_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/response_stream_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/socket_pool_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/url_spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/utils/formidable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/utils/proxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/needle/test/utils/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/bin/node-pre-gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/bin/node-pre-gyp.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/contributing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/clean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/configure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/install.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/node-pre-gyp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/pre-binding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/publish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/rebuild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/reinstall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/reveal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/testbinary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/testpackage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/unpublish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/util/abi_crosswalk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/util/compile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/util/handle_gyp_opts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/util/napi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/util/s3_setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/lib/util/versioning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/node-pre-gyp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/examples/my-program.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/lib/nopt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/nopt/test/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npm-bundled/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npm-bundled/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npm-bundled/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npm-bundled/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npm-packlist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npm-packlist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npm-packlist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npm-packlist/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npmlog/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npmlog/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npmlog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npmlog/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/npmlog/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/number-is-nan/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/number-is-nan/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/number-is-nan/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/number-is-nan/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/object-assign/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/object-assign/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/object-assign/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/object-assign/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/once/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/once/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/once/once.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/once/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/os-homedir/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/os-homedir/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/os-homedir/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/os-homedir/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/os-tmpdir/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/os-tmpdir/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/os-tmpdir/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/os-tmpdir/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/osenv/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/osenv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/osenv/osenv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/osenv/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/path-is-absolute/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/path-is-absolute/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/path-is-absolute/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/path-is-absolute/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/process-nextick-args/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/process-nextick-args/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/process-nextick-args/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/process-nextick-args/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/LICENSE.APACHE2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/LICENSE.MIT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/example/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/readme.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/all_bool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/bool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/dash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/default_bool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/dotted.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/kv_short.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/long.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/num.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/parse_modified.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/short.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/stop_early.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/unknown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/node_modules/minimist/test/whitespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/test/ini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/test/nested-env-vars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rc/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/GOVERNANCE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/duplex-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/duplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/lib/_stream_duplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/lib/_stream_passthrough.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/lib/_stream_readable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/lib/_stream_transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/lib/_stream_writable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/lib/internal/streams/BufferList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/lib/internal/streams/destroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/lib/internal/streams/stream-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/lib/internal/streams/stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/node_modules/isarray/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/node_modules/isarray/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/node_modules/isarray/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/node_modules/isarray/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/node_modules/isarray/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/node_modules/isarray/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/node_modules/isarray/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/node_modules/isarray/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/passthrough.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/readable-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/readable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/writable-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/readable-stream/writable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rimraf/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rimraf/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rimraf/bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rimraf/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/rimraf/rimraf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/sax/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/sax/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/sax/lib/sax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/sax/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/semver/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/semver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/semver/bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/semver/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/semver/range.bnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/semver/semver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/set-blocking/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/set-blocking/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/set-blocking/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/set-blocking/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/set-blocking/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/signal-exit/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/signal-exit/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/signal-exit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/signal-exit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/signal-exit/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/signal-exit/signals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/string-width/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/string-width/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/string-width/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/string-width/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/string_decoder/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/string_decoder/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/string_decoder/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/string_decoder/lib/string_decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/string_decoder/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/strip-ansi/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/strip-ansi/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/strip-ansi/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/strip-json-comments/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/strip-json-comments/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/strip-json-comments/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/strip-json-comments/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/extract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/high-level-opt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/large-numbers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/mkdir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/mode-fix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/pax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/read-entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/replace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/unpack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/warn-mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/winchars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/lib/write-entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/tar/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/binding.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb.gypi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/.private/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/.private/bd.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/.private/bm.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/.private/bwince.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/.private/post-rewrite.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/.private/pre-commit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/.private/wbs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/.private/wbs_wince.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/ChangeLog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/INSTALL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/INSTALL_WIN.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/NEWS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/PORTING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/README.git" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/TODO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/Xcode/common.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/Xcode/debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/Xcode/libusb.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/Xcode/libusb.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/Xcode/libusb_debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/Xcode/libusb_release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/Xcode/release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/android/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/android/jni/Android.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/android/jni/Application.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/android/jni/examples.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/android/jni/libusb.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/android/jni/tests.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/autogen.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/bootstrap.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/configure.ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/doc/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/doc/doxygen.cfg.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/doc/libusb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/dpfp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/dpfp_threaded.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/ezusb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/ezusb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/fxload.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/getopt/getopt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/getopt/getopt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/getopt/getopt1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/hotplugtest.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/listdevs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/sam3u_benchmark.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/examples/xusb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb-1.0.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/core.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/descriptor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/hotplug.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/hotplug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/io.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/libusb-1.0.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/libusb-1.0.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/libusb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/libusbi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/darwin_usb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/darwin_usb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/linux_netlink.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/linux_udev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/linux_usbfs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/linux_usbfs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/netbsd_usb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/openbsd_usb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/poll_posix.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/poll_posix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/poll_windows.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/poll_windows.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/threads_posix.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/threads_posix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/threads_windows.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/threads_windows.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/wince_usb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/wince_usb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/windows_common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/windows_usb.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/os/windows_usb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/strerror.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/sync.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/libusb/version_nano.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/ddk_build.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/errno.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/fxload_2010.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/fxload_2010.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/fxload_2012.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/fxload_2012.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/fxload_2013.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/fxload_sources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/getopt_2005.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/getopt_2010.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/getopt_2010.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/getopt_2012.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/getopt_2012.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/getopt_2013.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/getopt_sources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/hotplugtest_2010.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/hotplugtest_2010.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/hotplugtest_2012.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/hotplugtest_2012.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/hotplugtest_2013.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/hotplugtest_sources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/inttypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb.dsw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_2005.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_2010.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_2012.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_2013.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_2015.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_dll.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_dll_2005.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_dll_2010.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_dll_2010.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_dll_2012.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_dll_2012.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_dll_2013.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_dll_wince.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_sources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_static.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_static_2005.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_static_2010.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_static_2010.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_static_2012.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_static_2012.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_static_2013.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_static_wince.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/libusb_wince.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/listdevs.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/listdevs_2005.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/listdevs_2010.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/listdevs_2010.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/listdevs_2012.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/listdevs_2012.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/listdevs_2013.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/listdevs_sources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/listdevs_wince.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/missing.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/missing.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/stdint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/stress_2005.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/stress_2010.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/stress_2010.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/stress_2012.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/stress_2012.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/stress_2013.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/stress_wince.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/xusb.dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/xusb_2005.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/xusb_2010.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/xusb_2010.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/xusb_2012.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/xusb_2012.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/xusb_2013.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/xusb_sources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/msvc/xusb_wince.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/tests/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/tests/libusb_testlib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/tests/stress.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb/tests/testlib.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/libusb_config/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/src/binding/usb_bindings.node" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/src/device.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/src/helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/src/node_usb.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/src/node_usb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/src/polyfill.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/src/transfer.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/src/uv_async_queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/test/usb.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/usb/usb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/util-deprecate/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/util-deprecate/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/util-deprecate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/util-deprecate/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/util-deprecate/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/util-deprecate/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/assets/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/assets/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/assets/images/icons@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/assets/images/widgets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/assets/images/widgets@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/assets/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/classes/usb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/classes/usbalternateinterface.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/classes/usbconfiguration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/classes/usbdevice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/classes/usbendpoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/classes/usbinterface.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/globals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/interfaces/endpointresult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/interfaces/usbcontroltransferparameters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/interfaces/usbdevicefilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/interfaces/usbdevicerequestoptions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/interfaces/usbintransferresult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/interfaces/usboptions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/docs/interfaces/usbouttransferresult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/examples/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/examples/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/adapter.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/alternate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/alternate.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/configuration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/configuration.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/device.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/dispatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/dispatcher.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/endpoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/endpoint.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/enums.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/enums.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/interface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/interface.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/interfaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/interfaces.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/usb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/lib/usb.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/adapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/alternate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/configuration.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/device.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/dispatcher.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/endpoint.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/enums.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/layouts/default.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/analytics.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/breadcrumb.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/comment.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/footer.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/header.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/hierarchy.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/member.declaration.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/member.getterSetter.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/member.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/member.signature.body.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/member.signature.title.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/member.signatures.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/member.sources.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/members.group.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/members.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/navigation.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/parameter.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/toc.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/toc.root.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/type.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/typeAndParent.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/partials/typeParameters.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/theme/templates/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/src/usb.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/adapter.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/alternate.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/configuration.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/device.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/dispatcher.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/endpoint.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/enums.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/interface.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/interfaces.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/webusb/types/usb.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/wide-align/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/wide-align/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/wide-align/align.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/wide-align/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/wrappy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/wrappy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/wrappy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/wrappy/wrappy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/yallist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/yallist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/yallist/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/yallist/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/node_modules/yallist/yallist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keys.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Server/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Home/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/src/Home/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/src/Home/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/FlashDriveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/FlashDriveController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keys.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Encryption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Server/FlashDriveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/FlashDriveController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Home/Encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Home/Encryption.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/keys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/keys.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/publicKeys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/publicKeys.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/src/Home/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/src/Home/Encryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/keys.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/publicKeys.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/src/Home/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/src/Home/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Server/src/Home/FlashDriveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/src/Home/FlashDriveController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Server/src/Home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/src/Home/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publicKeys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/publicKeys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publicKeys.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/FlashDrive.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/FlashDrive.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/FlashDriveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/FlashDriveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Encryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/FlashDrive.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/FlashDrive.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Home/Encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Home/Encryption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Home/FlashDrive.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Home/FlashDrive.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/src/Home/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/src/Home/Encryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/src/Home/FlashDrive.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/src/Home/FlashDrive.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../updateUSB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../updateUSB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../updateUSB/Authenticator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../updateUSB/Authenticator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../updateUSB/out/production/Authenticator/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../updateUSB/out/production/Authenticator/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../updateUSB/out/production/Authenticator/Authentic.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../updateUSB/out/production/Authenticator/Authentic.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../updateUSB/out/production/Authenticator/Authenticator/Authentic.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../updateUSB/out/production/Authenticator/Authenticator/Authentic.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../updateUSB/out/production/Authenticator/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../updateUSB/src/Authenticator/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../updateUSB/src/Authenticator/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../updateUSB/src/Authenticator/Authentic.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../updateUSB/src/Authenticator/Authentic.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../updateUSB/src/Authenticator/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../updateUSB/src/Authenticator/Dashboard.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,8 +903,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-428">
-              <caret line="121" column="43" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
+            <state relative-caret-position="142">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +915,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/Encryption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="110">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/Server/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -104,11 +936,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Home/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
+            <state relative-caret-position="303">
+              <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keys.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -116,8 +957,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/FlashDriveController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="107" column="45" lean-forward="true" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
+            <state relative-caret-position="212">
+              <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,11 +967,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Home/Home.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            <state relative-caret-position="-887">
+              <caret line="1768" selection-start-line="1768" selection-end-line="1768" />
             </state>
           </provider>
         </entry>
@@ -139,7 +979,9 @@
         <entry file="file://$PROJECT_DIR$/src/Home/FlashDrive.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102" />
+            <state relative-caret-position="-411">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -158,6 +1000,8 @@
       <find>load</find>
       <find>117aca</find>
       <find>Encryp</find>
+      <find>zoo</find>
+      <find>zoowe</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -166,6 +1010,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jchillin &lt;cooljacobhill@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -177,21 +1026,24 @@
         <option value="$PROJECT_DIR$/src/Home/Home.fxml" />
         <option value="$PROJECT_DIR$/src/Home/USBStorageDevice.java" />
         <option value="$PROJECT_DIR$/src/Home/USBDeviceDetectorManager.java" />
-        <option value="$PROJECT_DIR$/publicKeys.txt" />
-        <option value="$PROJECT_DIR$/keys.txt" />
         <option value="$PROJECT_DIR$/src/Home/Encryption.java" />
         <option value="$PROJECT_DIR$/src/Home/Main.java" />
         <option value="$PROJECT_DIR$/src/Home/Main.java" />
+        <option value="$PROJECT_DIR$/../updateUSB/src/Authenticator/AuthController.java" />
+        <option value="$PROJECT_DIR$/publicKeys.txt" />
+        <option value="$PROJECT_DIR$/keys.txt" />
+        <option value="$PROJECT_DIR$/out/production/Server/keys.key" />
         <option value="$PROJECT_DIR$/src/Home/FlashDriveController.java" />
         <option value="$PROJECT_DIR$/src/Home/FlashDriveController.java" />
+        <option value="$PROJECT_DIR$/out/production/Server/Controller.java" />
         <option value="$PROJECT_DIR$/src/Home/Controller.java" />
         <option value="$PROJECT_DIR$/src/Home/Controller.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
@@ -226,7 +1078,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548593525436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548608090129" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -363,7 +1215,7 @@
       <workItem from="1548590061279" duration="1012000" />
       <workItem from="1548592135113" duration="1403000" />
       <workItem from="1548593744821" duration="4049000" />
-      <workItem from="1548598540528" duration="2060000" />
+      <workItem from="1548598540528" duration="7697000" />
     </task>
     <task id="LOCAL-00001" summary="UI">
       <created>1548550369706</created>
@@ -407,17 +1259,31 @@
       <option name="project" value="LOCAL" />
       <updated>1548585169069</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="stuff">
+      <created>1548602937167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548602937167</updated>
+    </task>
+    <task id="LOCAL-00008" summary="stuff">
+      <created>1548603034856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548603034856</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40001000" />
+    <option name="totallyTimeSpent" value="45638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.37962964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2637584" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -425,10 +1291,11 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23065902" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29461756" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -438,7 +1305,7 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32378224" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3186969" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="15" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
@@ -467,22 +1334,42 @@
     <MESSAGE value="UI COMPLETE" />
     <MESSAGE value="USB Save Keys Function and Encryption" />
     <MESSAGE value="Edited to make it work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited to make it work" />
+    <MESSAGE value="Update encryption" />
+    <MESSAGE value="stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Home/Main.java</url>
-          <line>24</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Home/Main.java</url>
-          <line>25</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Home/FlashDriveController.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Home/FlashDriveController.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Home/FlashDriveController.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -500,43 +1387,23 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java" />
     <entry file="file://$PROJECT_DIR$/out/production/Server/src/UpdateUSB.fxml" />
-    <entry file="file://$PROJECT_DIR$/keys.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1530" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/publicKeys.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-428">
-          <caret line="121" column="43" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/keys.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/FlashDriveController.java">
+    <entry file="file://$PROJECT_DIR$/../updateUSB/src/Authenticator/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="107" column="45" lean-forward="true" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1445">
+          <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publicKeys.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/Home.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -549,20 +1416,78 @@
     <entry file="file://$PROJECT_DIR$/src/Home/FlashDrive.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
+        <state relative-caret-position="-411">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Server/keys.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-887">
+          <caret line="1768" selection-start-line="1768" selection-end-line="1768" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/Encryption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="110">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Server/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Server/FlashDriveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home/FlashDriveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Home/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
+        <state relative-caret-position="303">
+          <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

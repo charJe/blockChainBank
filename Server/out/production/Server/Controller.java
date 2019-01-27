@@ -97,6 +97,7 @@ public class Controller{
 
     @FXML
     private void submitTransaction(ActionEvent event) throws Exception{
+
         KeyPair keyPair = Encryption.buildKeyPair();
         // sign the message
         byte [] signed = Encryption.encrypt(keyPair.getPublic(), payerid.getText()+payeeid.getText()+datepick.getValue()+amount.getText());          //payer id + payee id + date + amount
@@ -104,18 +105,15 @@ public class Controller{
         byte[] pubKey = keyPair.getPublic().getEncoded();
         byte[] privateKey = keyPair.getPrivate().getEncoded();
         File keyss = new File("keys.key");
-        keyss.createNewFile();
-        PrintWriter fout = new PrintWriter("keys.key");
-        fout.println(payerid.getText()+privateKey);                                            //PAYER ID IS USED AS THE ENCRYPTION KEY
+        PrintWriter fout = new PrintWriter(keyss);
+        fout.append(payerid.getText()+privateKey+"\r\n");                                            //PAYER ID IS USED AS THE ENCRYPTION KEY
         fout.close();
 
         File publickeys = new File("publicKeys.key");
-        publickeys.createNewFile();
-        fout = new PrintWriter("publicKeys.key");
-        fout.println(payerid.getText()+pubKey);
+        fout = new PrintWriter(publickeys);
+        fout.append(payerid.getText()+pubKey+"\r\n");
         fout.close();
 
-        //System.out.println(new String(signed));  // <<signed message>>
         Main.addToBlockChain(new String(signed));
     }
 

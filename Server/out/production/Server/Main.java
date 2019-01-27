@@ -14,6 +14,8 @@ import static java.lang.System.out;
 public class Main extends Application {
     private static int numberOfTrans;
     private static final int TRANLENGTH=20;
+    private static final int BLOCKSIZE=5;
+    private static final double THRESHOLD=.90;
     private static ServerSocket me;
     private static ArrayList<Socket> miners;
     private static Socket web;    
@@ -99,7 +101,7 @@ public class Main extends Application {
      * @returns String[][] containing block chains from all miners. string[miner number][transaction number]
      * @author Charles Jackson
      */
-    private static String getBlockChain() throws Exception{										//CHANGED BY MOHIT
+    private static String[] getBlockChain() throws Exception{										//CHANGED BY MOHIT
         String[][] blockChains = new String[miners.size()][numberOfTrans];
 	int i=0;
 	for(Socket miner: miners){                        // for every miner
@@ -114,20 +116,22 @@ public class Main extends Application {
 	    }
 	    ++i;
 	}
-	double[] percentErrors=new double[miners.size()];
-	for(int i=0; i < miners.size(); ++i){ // for every miner
-	    for(int j=0; j  <miners.size(); ++j){ // compare to every other miner
-		if(i==j) continue;		  // don't compare the same thing
-		double incrementError=0.0;
-		for(int k=0; k<numberOfTrans; ++k){
-		    if(!blockChains[i][k].equals(blockChains[j][k]))
-			++incrementError;
-		}
-		percentErrors[i]=incrementError/numberOfTrans;
-	    }
-	    percentErrors[i]/=miners.size();
-	}
-	return blockChains[i][findMin(percentErrors)];
+	String[] trueChain = new String[numberOfTrans];
+	String[] trueBlock = new String[BLOCKSIZE];
+	for(int tcIndex=0; tcIndex<numberOfTrans; tcIndex+=BLOCKSIZE){
+	    double[] percentErrors=new double[miners.size()];
+	    for(int tbIndex=tcIndex; tbIndex<BLOCKSIZE; ++tbIndex)
+		for(i=0; i < miners.size(); ++i){ // for every miner
+		    for(int j=0; j < miners.size(); ++j) // compare to every other miner
+			if(i!=j && !blockChains[i][tbIndex].equals(blockChains[j][tbIndex]))
+			    ++percentErrors[i];	    
+		    percentErrors[i]/=BLOCKSIZE; // average the %error
+		}		
+	    int t=findMin(percentErrors);
+	    for(int tbIndex=tcIndex; tbIndex<BLOCKSIZE; ++tbIndex)
+		trueChain[tbIndex]=blockChains[t][tbIndex];
+        }
+	return trueChain;
     }
     /**
      * find the smallest value in the array
@@ -141,6 +145,7 @@ public class Main extends Application {
 	    if(ar[i] < ar[min])
 		min=i;
 	}
+	return min;
     }
     /**
      * send the true block chain to the web application

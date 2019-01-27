@@ -17,7 +17,7 @@
             <Insets left="30.0" top="5.0" />
          </VBox.margin>
       </ImageView>
-      <Button fx:id="exitbtn" mnemonicParsing="false" onAction="#exitForm" prefHeight="53.0" prefWidth="285.0" style="-fx-background-color: FFFFFF;" text="     Exit" AnchorPane.bottomAnchor="5.0">
+      <Button fx:id="exitbtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="285.0" style="-fx-background-color: FFFFFF;" text="     Exit" AnchorPane.bottomAnchor="5.0">
          <graphic>
             <ImageView fx:id="usbimage" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -33,11 +33,13 @@
          </font>
       </Text>
       <Text fx:id="acid" layoutX="389.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plug in your flash drive, and click Submit" AnchorPane.leftAnchor="389.0" />
-      <Button fx:id="submitbtn" layoutX="389.0" layoutY="282.0" mnemonicParsing="false" onAction="#authenticate" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: #21c90b;" text="Submit" AnchorPane.rightAnchor="780.0" />
+      <Button fx:id="submitbtn" layoutX="389.0" layoutY="311.0" mnemonicParsing="false" onAction="#authenticate" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: #21c90b;" text="Submit" AnchorPane.rightAnchor="780.0" />
       <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="89.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@icons8-usb-connector-26.png" />
          </image>
       </ImageView>
+      <Text layoutX="389.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the flash drive drive name:" />
+      <TextField fx:id="driveText" layoutX="710.0" layoutY="269.0" AnchorPane.rightAnchor="383.0" />
    </children>
 </AnchorPane>
