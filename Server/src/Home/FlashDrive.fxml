@@ -11,81 +11,71 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.GridPane?>
 
-<GridPane alignment="CENTER" hgap="10.0" vgap="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home.Controller">
+<AnchorPane fx:id="flashDrivePane" prefHeight="720.0000999999975" prefWidth="1152.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home.FlashDriveController">
    <children>
-      <AnchorPane prefHeight="720.0000999999975" prefWidth="1152.0">
+      <VBox layoutX="0.0" layoutY="0.0" mouseTransparent="true" prefHeight="721.0" prefWidth="279.0" style="-fx-background-color: E4F4FF;">
          <children>
-            <VBox layoutX="0.0" layoutY="0.0" mouseTransparent="true" prefHeight="721.0" prefWidth="279.0" style="-fx-background-color: E4F4FF;">
+            <VBox fx:id="colorbox" prefHeight="52.0" prefWidth="304.0">
                <children>
-                  <VBox prefHeight="52.0" prefWidth="304.0">
-                     <children>
-                        <ImageView fitHeight="251.0" fitWidth="237.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../images/blue%20github.png" />
-                           </image>
-                           <VBox.margin>
-                              <Insets left="30.0" top="5.0" />
-                           </VBox.margin>
-                        </ImageView>
-                     </children>
-                  </VBox>
-                  <Button mnemonicParsing="false" prefHeight="56.0" prefWidth="307.0" style="-fx-background-color: E4F4FF;" text="     Make Transactions">
-                     <graphic>
-                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../images/icons8-questionnaire-24.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <padding>
-                        <Insets left="-100.0" />
-                     </padding>
-                  </Button>
-                  <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="309.0" style="-fx-background-color: B9E2FF;" text="     USB Login Key">
-                     <graphic>
-                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../images/icons8-usb-connector-26.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <padding>
-                        <Insets left="-125.0" />
-                     </padding>
-                  </Button>
-                  <ImageView fitHeight="343.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true" />
-                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="310.0" style="-fx-background-color: E4F4FF;" text="     Exit">
-                     <graphic>
-                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../images/icons8-delete-26.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <padding>
-                        <Insets left="-190.0" />
-                     </padding>
-                  </Button>
+                  <ImageView fitHeight="251.0" fitWidth="237.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bluegithub.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </ImageView>
                </children>
             </VBox>
-            <Text fill="#117aca" layoutX="361.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAKE USB KEY" wrappingWidth="406.0">
-               <font>
-                  <Font name="Segoe UI" size="27.0" />
-               </font>
-            </Text>
-            <Text layoutX="389.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Id (12 Digits)" />
-            <Text layoutX="389.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-            <TextField layoutX="621.0" layoutY="210.0" prefHeight="31.0" prefWidth="391.0" />
-            <TextField layoutX="621.0" layoutY="263.0" prefHeight="31.0" prefWidth="391.0" />
-            <Button layoutX="775.0" layoutY="346.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: E4F4FF;" text="Submit" />
-            <Button layoutX="901.0" layoutY="345.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: E4F4FF;" text="Cancel" />
+            <Button fx:id="transbtn" mnemonicParsing="false" onAction="#loadHome" prefHeight="56.0" prefWidth="307.0" style="-fx-background-color: E4F4FF;" text="     Make Transactions">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-questionnaire-24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="-100.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="309.0" style="-fx-background-color: B9E2FF;" text="     USB Login Key">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-usb-connector-26.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="-125.0" />
+               </padding>
+            </Button>
+            <ImageView fx:id="transimg" fitHeight="343.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="usbbtn" mnemonicParsing="false" prefHeight="46.0" prefWidth="310.0" style="-fx-background-color: E4F4FF;" text="     Exit">
+               <graphic>
+                  <ImageView fx:id="usbimage" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-delete-26.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="-190.0" />
+               </padding>
+            </Button>
          </children>
-      </AnchorPane>
+      </VBox>
+      <Text fill="#117aca" layoutX="361.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAKE USB KEY" wrappingWidth="406.0">
+         <font>
+            <Font name="Segoe UI" size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="389.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Id (12 Digits)" />
+      <Text layoutX="389.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <TextField fx:id="acidfield" layoutX="621.0" layoutY="210.0" prefHeight="31.0" prefWidth="391.0" />
+      <TextField fx:id="passfield" layoutX="621.0" layoutY="263.0" prefHeight="31.0" prefWidth="391.0" />
+      <Button fx:id="submitbtn" layoutX="775.0" layoutY="346.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: E4F4FF;" text="Submit" />
+      <Button fx:id="cancelbtn" layoutX="901.0" layoutY="345.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: E4F4FF;" text="Cancel" />
    </children>
-   <columnConstraints>
-      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
-   </columnConstraints>
-   <rowConstraints>
-      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
-   </rowConstraints>
-</GridPane>
+</AnchorPane>

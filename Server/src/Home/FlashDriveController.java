@@ -3,59 +3,55 @@ package Home;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.control.Button;
-import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 
-public class Controller {
+public class FlashDriveController {
 
     @FXML
     private Button usbbtn;
 
     @FXML
-    private TextField amount;
+    private TextField passfield;
 
     @FXML
-    private VBox colotvbox;
-
-    @FXML
-    private AnchorPane homepane;
-
-    @FXML
-    private VBox box1;
-
-    @FXML
-    private DatePicker datepick;
-
-    @FXML
-    private TextField payerid;
+    private ImageView transimg;
 
     @FXML
     private Button cancelbtn;
 
     @FXML
-    private TextField payeeid;
+    private AnchorPane flashDrivePane;
+
+    @FXML
+    private VBox colorbox;
 
     @FXML
     private Button transbtn;
 
     @FXML
+    private ImageView usbimage;
+
+    @FXML
     private Button submitbtn;
+
+    @FXML
+    private TextField acidfield;
 
     @FXML
     private void loadFlashDrive(ActionEvent event) throws Exception{
         AnchorPane pane2 = FXMLLoader.load(getClass().getResource("FlashDriveController.fxml"));
         pane2.getChildren().setAll(pane2);
-        System.out.println("flash");
     }
 
     @FXML
     private void loadHome(ActionEvent event) throws Exception{
         AnchorPane pane = FXMLLoader.load(getClass().getResource("Home.fxml"));
         pane.getChildren().setAll(pane);
+        System.out.println("home");
     }
 }
