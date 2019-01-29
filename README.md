@@ -1,4 +1,7 @@
 # blockChainBank
+Fully working app is not pushed yet
+
+*OLD*
 Clients use bank website to normally make a transaction.
 Transaction are encrypted using the client's personal key.
 The bank sends encrypted transaction to all miners.
