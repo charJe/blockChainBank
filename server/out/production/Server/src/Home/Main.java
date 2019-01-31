@@ -13,7 +13,9 @@ import static java.lang.System.out;
 
 public class Main extends Application {
     private static int numberOfTrans;
-    private static final int TRANLENGTH=20;
+    private static final int TRANLENGTH=128;
+    private static final int BLOCKSIZE=5;
+    private static final double THRESHOLD=.90;
     private static ServerSocket me;
     private static ArrayList<Socket> miners;
     private static Socket web;    
@@ -114,8 +116,41 @@ public class Main extends Application {
 	    }
 	    ++i;
 	}
-	//TODO go compare blockChains and return the good one
-		return(new String[3]);
+	String[] trueChain = new String[numberOfTrans];
+	String[] trueBlock = new String[BLOCKSIZE];
+	for(int tcIndex=0; tcIndex<numberOfTrans; tcIndex+=BLOCKSIZE){
+	    double[] percentErrors=new double[miners.size()];
+	    for(int tbIndex=tcIndex; tbIndex<BLOCKSIZE; ++tbIndex)
+		for(i=0; i < miners.size(); ++i){ // for every miner
+		    for(int j=0; j < miners.size(); ++j) // compare to every other miner
+			if(i!=j && !blockChains[i][tbIndex].equals(blockChains[j][tbIndex]))
+			    ++percentErrors[i];	    
+		    percentErrors[i]/=BLOCKSIZE; // average the %error
+		}		
+	    int t=findMin(percentErrors);
+	    double totalError=0.0;
+	    for(i=0; i<percentErrors.length; ++i)
+		totalError+=percentErrors[i];
+	    totalError/=(double)percentErrors.length;
+	    if(totalError>THRESHOLD) throw new Home.CorruptedBlockException("error > "+THRESHOLD);
+	    for(int tbIndex=tcIndex; tbIndex<BLOCKSIZE; ++tbIndex)
+		trueChain[tbIndex]=blockChains[t][tbIndex];
+        }
+	return trueChain;
+    }
+    /**
+     * find the smallest value in the array
+     * @param ar the array to be indexed
+     * @returns the index of the smallest value
+     * @author Charles Jackson
+     */
+    private static int findMin(double[] ar){
+	int min=0;
+	for(int i=0; i<ar.length; ++i){
+	    if(ar[i] < ar[min])
+		min=i;
+	}
+	return min;
     }
     /**
      * send the true block chain to the web application
@@ -125,6 +160,8 @@ public class Main extends Application {
 	if(web==null)throw new SocketException("SocketNotConnected");
 	OutputStream wout = web.getOutputStream();
 	String[] blockChain=getBlockChain();
+	int size=blockChain.length*TRANLENGTH;
+	wout.write((""+size).getBytes());
 	for(String tran: blockChain)
 	    wout.write(tran.getBytes());
     }

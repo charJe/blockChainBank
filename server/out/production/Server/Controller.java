@@ -23,6 +23,7 @@ import java.security.PublicKey;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Base64;
 import java.util.ResourceBundle;
 import static java.lang.System.*;
 public class Controller{
@@ -97,21 +98,20 @@ public class Controller{
     @FXML
     private void submitTransaction(ActionEvent event) throws Exception{
         KeyPair keyPair = Encryption.buildKeyPair();
-        PublicKey pubKey = keyPair.getPublic();
-        PrivateKey privateKey = keyPair.getPrivate();
-
         // sign the message
-        byte [] signed = Encryption.encrypt(privateKey, payerid.getText()+payeeid.getText()+datepick.getValue()+amount.getText());          //payer id + payee id + date + amount
+        byte [] signed = Encryption.encrypt(keyPair.getPublic(), payerid.getText()+payeeid.getText()+datepick.getValue()+amount.getText());          //payer id + payee id + date + amount
 
-        File keyss = new File("keys.txt");
+        byte[] pubKey = keyPair.getPublic().getEncoded();
+        byte[] privateKey = keyPair.getPrivate().getEncoded();
+        File keyss = new File("keys.key");
         keyss.createNewFile();
-        PrintWriter fout = new PrintWriter("keys.txt");
+        PrintWriter fout = new PrintWriter("keys.key");
         fout.println(payerid.getText()+privateKey);                                            //PAYER ID IS USED AS THE ENCRYPTION KEY
         fout.close();
 
-        File publickeys = new File("publicKeys.txt");
+        File publickeys = new File("publicKeys.key");
         publickeys.createNewFile();
-        fout = new PrintWriter("publicKeys.txt");
+        fout = new PrintWriter("publicKeys.key");
         fout.println(payerid.getText()+pubKey);
         fout.close();
 

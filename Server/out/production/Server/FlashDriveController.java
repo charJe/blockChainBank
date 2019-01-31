@@ -45,9 +45,6 @@ public class FlashDriveController {
     private ImageView usbimage;
 
     @FXML
-    private TextField driveLetter;
-
-    @FXML
     private Button submitbtn;
 
     @FXML
@@ -83,6 +80,11 @@ public class FlashDriveController {
         acidfield.clear();
     }
 
+    @FXML
+    private void writeToFlashDrive(ActionEvent event) throws Exception {
+
+    }
+
 
     /**
      *
@@ -91,9 +93,11 @@ public class FlashDriveController {
      * Author Mohit Bhole
      */
     @FXML
-    private void writeToFlashDrive(ActionEvent event) throws Exception{
+    private void usbSaveKeys(ActionEvent event) throws Exception{
 
-        String path = driveLetter.getText();
+        System.out.println("Enter the path of the USB Drive(Just the letter): ");
+        Scanner consolein = new Scanner(System.in);
+        String path = consolein.nextLine();
 
         path = path + ":\\BankBlockChain\\personalprivatekey.key";
 
@@ -101,21 +105,18 @@ public class FlashDriveController {
         keyfile.createNewFile();
         PrintWriter fout = new PrintWriter(keyfile);
         String acid = acidfield.getText();
-        File allkeys = new File("keys.key");
-        allkeys.createNewFile();
-        Scanner in = new Scanner(allkeys);
+        Scanner in = new Scanner("keys.key");
 
         while(in.hasNextLine()){
             String line = in.nextLine();
-            String base=line.substring(0,12);
-            if(base.equals(acid))   {
-                fout.append(line);
+            if(line.substring(0,11).equals(acid))   {
+                fout.write(line.substring(12));
                 break;
             }
         }
-        /*keyfile.setReadable(false);
+        keyfile.setReadable(false);
         keyfile.setExecutable(false);
-        keyfile.setWritable(false);*/
+        keyfile.setWritable(false);
 
         in.close();
         fout.close();

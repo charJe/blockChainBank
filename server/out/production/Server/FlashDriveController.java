@@ -15,6 +15,7 @@ import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Base64;
 import java.util.Scanner;
 
 public class FlashDriveController {
@@ -98,13 +99,13 @@ public class FlashDriveController {
         Scanner consolein = new Scanner(System.in);
         String path = consolein.nextLine();
 
-        path = path + ":\\BankBlockChain\\";
+        path = path + ":\\BankBlockChain\\personalprivatekey.key";
 
         File keyfile = new File(path);
         keyfile.createNewFile();
         PrintWriter fout = new PrintWriter(keyfile);
         String acid = acidfield.getText();
-        Scanner in = new Scanner("keys.txt");
+        Scanner in = new Scanner("keys.key");
 
         while(in.hasNextLine()){
             String line = in.nextLine();

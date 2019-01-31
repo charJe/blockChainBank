@@ -128,11 +128,11 @@ public class Main extends Application {
 		    percentErrors[i]/=BLOCKSIZE; // average the %error
 		}		
 	    int t=findMin(percentErrors);
-	    double totatlError=0.0;
+	    double totalError=0.0;
 	    for(i=0; i<percentErrors.length; ++i)
-		totatlError+=percentErrors[i];
+		totalError+=percentErrors[i];
 	    totalError/=(double)percentErrors.length;
-	    if(totalError>THRESHOLD) throw new CorruptedBlockException("error > "+THRESHOLD);
+	    if(totalError>THRESHOLD) throw new Home.CorruptedBlockException("error > "+THRESHOLD);
 	    for(int tbIndex=tcIndex; tbIndex<BLOCKSIZE; ++tbIndex)
 		trueChain[tbIndex]=blockChains[t][tbIndex];
         }
